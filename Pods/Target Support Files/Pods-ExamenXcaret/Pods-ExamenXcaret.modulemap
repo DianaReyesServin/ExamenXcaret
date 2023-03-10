@@ -1,0 +1,6 @@
+framework module Pods_ExamenXcaret {
+  umbrella header "Pods-ExamenXcaret-umbrella.h"
+
+  export *
+  module * { export * }
+}

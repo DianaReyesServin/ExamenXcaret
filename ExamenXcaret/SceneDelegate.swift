@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  ExamenXcaret
 //
-//  Created by Rodrigo Arango on 07/03/23.
+//  Created by Diana Reyes on 07/03/23.
 //
 
 import UIKit

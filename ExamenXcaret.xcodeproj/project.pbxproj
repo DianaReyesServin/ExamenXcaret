@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A02768829B9128100FB2830 /* ApiPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02768729B9128100FB2830 /* ApiPokemon.swift */; };
+		0A02768A29B912C200FB2830 /* Pokemones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02768929B912C200FB2830 /* Pokemones.swift */; };
+		0A02768E29B96F3F00FB2830 /* DetallesPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02768D29B96F3F00FB2830 /* DetallesPokemon.swift */; };
+		0A02769029B9868700FB2830 /* DetallesPokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02768F29B9868700FB2830 /* DetallesPokemonViewController.swift */; };
 		0AFD53B629B7BEA3002FCA0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD53B529B7BEA3002FCA0C /* AppDelegate.swift */; };
 		0AFD53B829B7BEA3002FCA0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD53B729B7BEA3002FCA0C /* SceneDelegate.swift */; };
 		0AFD53BA29B7BEA3002FCA0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD53B929B7BEA3002FCA0C /* ViewController.swift */; };
 		0AFD53BD29B7BEA3002FCA0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFD53BB29B7BEA3002FCA0C /* Main.storyboard */; };
 		0AFD53BF29B7BEA4002FCA0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFD53BE29B7BEA4002FCA0C /* Assets.xcassets */; };
 		0AFD53C229B7BEA4002FCA0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFD53C029B7BEA4002FCA0C /* LaunchScreen.storyboard */; };
+		0AFD53CE29B7C64D002FCA0C /* ListaPokemonesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD53CD29B7C64D002FCA0C /* ListaPokemonesViewController.swift */; };
+		8BD5A7BFB44015CF5CC9E962 /* Pods_ExamenXcaret.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F1073AD55EB8CAD2D0C64D /* Pods_ExamenXcaret.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A02768729B9128100FB2830 /* ApiPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPokemon.swift; sourceTree = "<group>"; };
+		0A02768929B912C200FB2830 /* Pokemones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemones.swift; sourceTree = "<group>"; };
+		0A02768D29B96F3F00FB2830 /* DetallesPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesPokemon.swift; sourceTree = "<group>"; };
+		0A02768F29B9868700FB2830 /* DetallesPokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesPokemonViewController.swift; sourceTree = "<group>"; };
 		0AFD53B229B7BEA3002FCA0C /* ExamenXcaret.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamenXcaret.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AFD53B529B7BEA3002FCA0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AFD53B729B7BEA3002FCA0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,10 @@
 		0AFD53BE29B7BEA4002FCA0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AFD53C129B7BEA4002FCA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AFD53C329B7BEA4002FCA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFD53CD29B7C64D002FCA0C /* ListaPokemonesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPokemonesViewController.swift; sourceTree = "<group>"; };
+		61F1073AD55EB8CAD2D0C64D /* Pods_ExamenXcaret.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExamenXcaret.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF483498688EB059556EB83 /* Pods-ExamenXcaret.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamenXcaret.release.xcconfig"; path = "Target Support Files/Pods-ExamenXcaret/Pods-ExamenXcaret.release.xcconfig"; sourceTree = "<group>"; };
+		A4F51A34464E1BD69817994E /* Pods-ExamenXcaret.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamenXcaret.debug.xcconfig"; path = "Target Support Files/Pods-ExamenXcaret/Pods-ExamenXcaret.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD5A7BFB44015CF5CC9E962 /* Pods_ExamenXcaret.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A02768B29B912F200FB2830 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				0A02768929B912C200FB2830 /* Pokemones.swift */,
+				0A02768D29B96F3F00FB2830 /* DetallesPokemon.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+		0A02768C29B9131500FB2830 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				0A02768F29B9868700FB2830 /* DetallesPokemonViewController.swift */,
+				0AFD53B929B7BEA3002FCA0C /* ViewController.swift */,
+				0AFD53CD29B7C64D002FCA0C /* ListaPokemonesViewController.swift */,
+			);
+			path = Controladores;
+			sourceTree = "<group>";
+		};
 		0AFD53A929B7BEA3002FCA0C = {
 			isa = PBXGroup;
 			children = (
 				0AFD53B429B7BEA3002FCA0C /* ExamenXcaret */,
 				0AFD53B329B7BEA3002FCA0C /* Products */,
+				1D8BFE7F1D3B0E00C075A646 /* Pods */,
+				4E3064E4662D951D05DA92DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,34 @@
 		0AFD53B429B7BEA3002FCA0C /* ExamenXcaret */ = {
 			isa = PBXGroup;
 			children = (
+				0A02768C29B9131500FB2830 /* Controladores */,
+				0A02768B29B912F200FB2830 /* Modelos */,
 				0AFD53B529B7BEA3002FCA0C /* AppDelegate.swift */,
 				0AFD53B729B7BEA3002FCA0C /* SceneDelegate.swift */,
-				0AFD53B929B7BEA3002FCA0C /* ViewController.swift */,
 				0AFD53BB29B7BEA3002FCA0C /* Main.storyboard */,
 				0AFD53BE29B7BEA4002FCA0C /* Assets.xcassets */,
 				0AFD53C029B7BEA4002FCA0C /* LaunchScreen.storyboard */,
 				0AFD53C329B7BEA4002FCA0C /* Info.plist */,
+				0A02768729B9128100FB2830 /* ApiPokemon.swift */,
 			);
 			path = ExamenXcaret;
+			sourceTree = "<group>";
+		};
+		1D8BFE7F1D3B0E00C075A646 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4F51A34464E1BD69817994E /* Pods-ExamenXcaret.debug.xcconfig */,
+				6EF483498688EB059556EB83 /* Pods-ExamenXcaret.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E3064E4662D951D05DA92DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61F1073AD55EB8CAD2D0C64D /* Pods_ExamenXcaret.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AFD53C629B7BEA4002FCA0C /* Build configuration list for PBXNativeTarget "ExamenXcaret" */;
 			buildPhases = (
+				A9865F5554A4ECA99A6C0AD3 /* [CP] Check Pods Manifest.lock */,
 				0AFD53AE29B7BEA3002FCA0C /* Sources */,
 				0AFD53AF29B7BEA3002FCA0C /* Frameworks */,
 				0AFD53B029B7BEA3002FCA0C /* Resources */,
+				9BBC4026CCC4962B97B2917B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +190,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9BBC4026CCC4962B97B2917B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExamenXcaret/Pods-ExamenXcaret-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExamenXcaret/Pods-ExamenXcaret-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExamenXcaret/Pods-ExamenXcaret-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9865F5554A4ECA99A6C0AD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExamenXcaret-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0AFD53AE29B7BEA3002FCA0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A02768E29B96F3F00FB2830 /* DetallesPokemon.swift in Sources */,
 				0AFD53BA29B7BEA3002FCA0C /* ViewController.swift in Sources */,
+				0A02768A29B912C200FB2830 /* Pokemones.swift in Sources */,
+				0A02768829B9128100FB2830 /* ApiPokemon.swift in Sources */,
+				0A02769029B9868700FB2830 /* DetallesPokemonViewController.swift in Sources */,
 				0AFD53B629B7BEA3002FCA0C /* AppDelegate.swift in Sources */,
+				0AFD53CE29B7C64D002FCA0C /* ListaPokemonesViewController.swift in Sources */,
 				0AFD53B829B7BEA3002FCA0C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +386,7 @@
 		};
 		0AFD53C729B7BEA4002FCA0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F51A34464E1BD69817994E /* Pods-ExamenXcaret.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +414,7 @@
 		};
 		0AFD53C829B7BEA4002FCA0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF483498688EB059556EB83 /* Pods-ExamenXcaret.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
